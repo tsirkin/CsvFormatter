@@ -1,7 +1,7 @@
 # CsvFormatter
 Format your model as a csv.
 
-Annotate your model class with CsvExported and call FormatTitle & FormatItem to produce csv output.
+Annotate your model class with CsvExported and call FormatTitle & FormatItem to produce csv output.  
 Example (.NET Core 2)
 
 Annotate your model class:
