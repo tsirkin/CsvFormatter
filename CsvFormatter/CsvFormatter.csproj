@@ -3,6 +3,17 @@
   <PropertyGroup>
     <TargetFramework>netstandard2.0</TargetFramework>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <PackageId>Tsirkin.CsvFormatter</PackageId>
+    <PackageVersion>1.0.0</PackageVersion>
+    <Authors>Tsirkin Evgeny</Authors>
+    <Description>A csv formatter for model classes.</Description>
+    <PackageRequireLicenseAcceptance>false</PackageRequireLicenseAcceptance>
+    <PackageReleaseNotes>First release</PackageReleaseNotes>
+    <PackageTags>csv format formatter</PackageTags>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|AnyCPU'">
+    <DocumentationFile>bin\Release\netstandard2.0\CsvFormatter.xml</DocumentationFile>
   </PropertyGroup>
 
 </Project>
