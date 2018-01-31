@@ -1,7 +1,6 @@
-<Project Sdk="Microsoft.NET.Sdk">
-
+<Project Sdk="Microsoft.NET.Sdk" ToolsVersion="15.0">
   <PropertyGroup>
-    <TargetFramework>netstandard2.0</TargetFramework>
+    <TargetFrameworks>netstandard2.0;net45;net46</TargetFrameworks>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
     <PackageId>Csv.CsvFormatter</PackageId>
     <PackageVersion>1.0.0</PackageVersion>
@@ -12,10 +11,13 @@
     <PackageReleaseNotes>First release</PackageReleaseNotes>
     <PackageTags>csv format formatter</PackageTags>
     <PackageProjectUrl>https://github.com/tsirkin/CsvFormatter</PackageProjectUrl>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <OldToolsVersion>2.0</OldToolsVersion>
   </PropertyGroup>
-
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|AnyCPU'">
     <DocumentationFile>bin\Release\netstandard2.0\CsvFormatter.xml</DocumentationFile>
   </PropertyGroup>
-
 </Project>

@@ -7,7 +7,7 @@ namespace Csv
 {
     /// <summary>
     /// Format your model as a csv.
-    /// Annotate your model class with CsvExported and call FormatTitle & FormatItem
+    /// Annotate your model class with CsvExported and call FormatTitle and FormatItem
     /// to produce csv output.
     /// Example (.NET Core 2)
     /// In your model class:
