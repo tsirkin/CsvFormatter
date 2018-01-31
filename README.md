@@ -25,3 +25,5 @@ And format it as csv:
     buffer.Append("\n");
     buffer.Append(formatter.FormatItem(model));
 ```
+Get the precompiled package here:
+https://www.nuget.org/packages/Tsirkin.CsvFormatter/
