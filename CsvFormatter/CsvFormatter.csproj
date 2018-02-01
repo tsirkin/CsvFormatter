@@ -3,7 +3,7 @@
     <TargetFrameworks>netstandard2.0;net45;net46</TargetFrameworks>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
     <PackageId>Csv.CsvFormatter</PackageId>
-    <PackageVersion>1.0.0</PackageVersion>
+    <PackageVersion>1.0.1</PackageVersion>
     <Title>CsvFormatter</Title>
     <Authors>Tsirkin Evgeny</Authors>
     <Description>A csv formatter for model classes using annotations.</Description>
